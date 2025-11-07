@@ -1,0 +1,6 @@
+selected resource name:		Copy data
+selected resource type:		pipeline
+factory name:			sqlpizzadatafactory
+factory location:		centralindia
+subscription id:		cab2086e-9234-4803-a8f8-f715fc20714e
+time of download (UTC):		Fri, 07 Nov 2025 17:52:53 GMT
