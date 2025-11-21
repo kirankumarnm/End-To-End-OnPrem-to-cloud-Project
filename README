@@ -5,27 +5,47 @@ A complete modern data engineering solution that migrates on-prem SQL Server dat
 🔧 Tools & Technologies
 
 🗄️ SQL Server Migration
-
 🔄 Azure Data Factory
-
 🗂️ Azure Data Lake Storage Gen2
-
 ⚡ Azure Databricks
-
 🐍 PySpark
-
 🔍 Spark SQL
-
 📊 Microsoft Power BI
-
 📘 Project Overview
 
 This project delivers a seamless end-to-end workflow:
 
 📥 Ingest on-prem SQL Server tables using Azure Data Factory
-
 🏞️ Store raw datasets securely in Azure Data Lake
-
 🔧 Transform and clean data in Azure Databricks with PySpark & Spark SQL
-
 📈 Build interactive dashboards in Power BI, integrated through Azure Synapse Analytics
+
+🏗 Architecture Diagram
+
+
++-------------------+        +--------------------------+
+|   On-Prem SQL     | -----> |   Azure Data Factory     |
+|     Server        |        | (Ingestion Pipelines)    |
++-------------------+        +-----------+--------------+
+                                        |
+                                        v
+                          +-----------------------------+
+                          | Azure Data Lake (Raw Zone) |
+                          +--------------+--------------+
+                                         |
+                                         v
+                            +--------------------------+
+                            |    Azure Databricks      |
+                            |  (ETL with PySpark)      |
+                            +-------------+------------+
+                                          |
+                                          v
+                           +----------------------------+
+                           | Azure Synapse / Power BI  |
+                           |   (Analytics & Reporting)  |
+                           +----------------------------+
+
+
+
+
+
