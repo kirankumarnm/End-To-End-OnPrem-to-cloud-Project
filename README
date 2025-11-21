@@ -1,22 +1,31 @@
+🚀 End-to-End On-Prem to Cloud Data Engineering Project
 
-##End-To-End-OnPrem-to-cloud-Project
+A complete modern data engineering solution that migrates on-prem SQL Server data to the cloud and builds a fully automated analytics pipeline using Azure and Databricks.
 
+🔧 Tools & Technologies
 
-The tools that are covered in this project are,
+🗄️ SQL Server Migration
 
-1. SQL server migration 
-2. Azure Data Factory
-3. Azure Data Lake Storage Gen2
-4. Azure Databricks
-5. PYSPARK
-6. SPARK SQL
-7. Microsoft Power BI
+🔄 Azure Data Factory
 
-The use case for this project is building an end to end solution by ingesting the tables from on-premise SQL Server database using 
-Azure Data Factory and then store the data in Azure Data Lake. Then Azure databricks is used to transform the RAW data to the most 
-cleanest form of data and  finally using Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard. 
+🗂️ Azure Data Lake Storage Gen2
 
-Architecture Diagram:
+⚡ Azure Databricks
 
+🐍 PySpark
 
+🔍 Spark SQL
 
+📊 Microsoft Power BI
+
+📘 Project Overview
+
+This project delivers a seamless end-to-end workflow:
+
+📥 Ingest on-prem SQL Server tables using Azure Data Factory
+
+🏞️ Store raw datasets securely in Azure Data Lake
+
+🔧 Transform and clean data in Azure Databricks with PySpark & Spark SQL
+
+📈 Build interactive dashboards in Power BI, integrated through Azure Synapse Analytics
